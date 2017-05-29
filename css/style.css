@@ -1,0 +1,40 @@
+
+.col-xs-8 {
+    border-radius: 1em;
+    width: 67%;
+}
+.col-xs-2 {
+    width: 16.67%;
+}
+.row {
+    height: 15em;
+}
+
+.text {
+    color: white; 
+}
+
+.weatherSquare {
+    background-color: rgba(100,50,50,.6);
+}
+
+.weather{
+    font-family: Cinzel;
+    font-size: 4em;
+}
+.temp{
+    font-family: Sacramento;
+    font-size: 5em;
+}
+.location{
+    font-family: Sacramento;
+    font-size: 3em;
+}
+
+.temp:hover {
+    color: grey;
+}
+
+.transparent {
+    color: rgba(0,0,0,0);
+}
