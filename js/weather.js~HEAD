@@ -53,7 +53,12 @@ var pass = function(weather){
         "url(http://kingofwallpapers.com/haze/haze-010.jpg) center center no-repeat fixedd")
             $("body").css('background-size','cover');
     }
-    
+    if (weatherToday == "Thunderstorm")
+    {
+            $("body").css("background",
+        "url(http://news.nationalgeographic.com/content/dam/news/2015/04/11/extremeweathergallery/14extremeweather.ngsversion.1470938513000.jpg) center center no-repeat fixedd");
+            $("body").css('background-size','cover');
+    }
     
     var x = 1;
     var celsius = Math.round((tempToday-32)*(5/9));
